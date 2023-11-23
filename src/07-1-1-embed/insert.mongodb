@@ -1,0 +1,18 @@
+use('platzi_store')
+
+db.users.insertOne({
+    email: "mulan@gmail.com",
+    password: 'Aza81156231dSG',
+    role: 'customer',
+    social_accounts: ['X','facebook'],
+    address:{
+        street: 'cra 9 17 24s',
+        city: 'Mulan Land',
+        zip: '10050'
+    },
+    shipping_address: {
+        street: 'cll 17 8e 04',
+        city: 'Mulan land',
+        zip: '4568'
+    }
+})
